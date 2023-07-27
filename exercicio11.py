@@ -1,11 +1,11 @@
 def calcular_quantidade_ingredientes(qtd_sanduiches):
-    peso_queijo = 50  # em gramas
-    peso_presunto = 50  # em gramas
-    peso_carne = 100  # em gramas
+    peso_queijo = 50
+    peso_presunto = 50
+    peso_carne = 100 
 
-    qtd_queijo = qtd_sanduiches * 2 * peso_queijo / 1000  # convertendo para quilos
-    qtd_presunto = qtd_sanduiches * peso_presunto / 1000  # convertendo para quilos
-    qtd_carne = qtd_sanduiches * peso_carne / 1000  # convertendo para quilos
+    qtd_queijo = qtd_sanduiches * 2 * peso_queijo / 1000  
+    qtd_presunto = qtd_sanduiches * peso_presunto / 1000  
+    qtd_carne = qtd_sanduiches * peso_carne / 1000  
 
     return qtd_queijo, qtd_presunto, qtd_carne
 
